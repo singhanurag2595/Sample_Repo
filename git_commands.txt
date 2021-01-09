@@ -1,0 +1,8 @@
+git init
+git config --global user.name singhanurag2595
+git config --global user.email singhanurag2595@gmail.com
+git config --autocrlf true
+git config --global --list
+git status
+git add f1.py
+git commit -m "Initila Commit"

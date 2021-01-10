@@ -6,3 +6,5 @@ git config --global --list
 git status
 git add f1.py
 git commit -m "Initila Commit"
+git rm f3.py
+git push origin master

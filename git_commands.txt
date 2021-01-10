@@ -17,3 +17,5 @@ git push origin master
    #if above doesn't work
    git pull origin main --allow-unrelated-histories
 4. git push origin -u main
+References : A. https://stackoverflow.com/questions/30590083/how-do-i-rename-both-a-git-local-and-remote-branch-name
+             B. https://www.educative.io/edpresso/the-fatal-refusing-to-merge-unrelated-histories-git-error

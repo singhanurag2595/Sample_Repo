@@ -8,3 +8,12 @@ git add f1.py
 git commit -m "Initila Commit"
 git rm f3.py
 git push origin master
+
+
+#This is how I renamed branch
+1. git branch -m master main
+2. git push origin --delete master
+3. git pull origin main 
+   #if above doesn't work
+   git pull origin main --allow-unrelated-histories
+4. git push origin -u main
